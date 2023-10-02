@@ -1,0 +1,434 @@
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ mkdir lecture
+mkdir: cannot create directory ‘lecture’: File exists
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ mkdir assignment
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ vi touch firstfile.txt
+2 files to edit
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/computer/.git/
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ git add firstfile.txt
+fatal: Unable to create 'C:/Users/computer/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ git commit -m "first commit"
+fatal: Unable to create 'C:/Users/computer/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/computer/.git/
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .arduinoIDE/
+        .bash_history
+        .cache/
+        .conda/
+        .condarc
+        .config/
+        .eclipse/
+        .gitconfig
+        .ipynb_checkpoints/
+        .ipython/
+        .jupyter/
+        .lesshst
+        .matplotlib/
+        .p2/
+        .packettracer
+        .spyder-py3/
+        .thumbnails/
+        .viminfo
+        .vscode/
+        3D Objects/
+        AppData/
+        Cisco Packet Tracer 6.2sv/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        My project/
+        NTUSER.DAT
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Terrain/
+        Untitled.ipynb
+        Untitled1.ipynb
+        Videos/
+        eclipse-workspace/
+        eclipse/
+        fsd_csf/
+        ham.ipynb
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        sdpod_agent/
+        secondfile.txt
+        terrain_Aryan Bardoh/
+        touch
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ git add firstfile.txt
+fatal: Unable to create 'C:/Users/computer/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ git add fileone.txt
+fatal: Unable to create 'C:/Users/computer/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ pwd
+/c/Users/computer
+\
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~ (main)
+$ cd nishtha
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (main)
+$ git init
+Initialized empty Git repository in C:/Users/computer/nishtha/.git/
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git add fileone.txt
+fatal: pathspec 'fileone.txt' did not match any files
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ vi touch fileone.txt
+2 files to edit
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/computer/nishtha/.git/
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git add fileone.txt
+fatal: pathspec 'fileone.txt' did not match any files
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git add filetwo.txt
+fatal: pathspec 'filetwo.txt' did not match any files
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git commit -m "initial commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        touch
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ vi filetwo.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git add .
+warning: in the working copy of 'filetwo.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'touch', LF will be replaced by CRLF the next time Git touches it
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ ls
+filetwo.txt  touch
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git commit -m "Second commit"
+[master (root-commit) 68155e3] Second commit
+ 2 files changed, 4 insertions(+)
+ create mode 100644 filetwo.txt
+ create mode 100644 touch
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ ls
+filetwo.txt  touch
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ touch fileone.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ vi fileone.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/computer/nishtha/.git/
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ ls -all
+total 35
+drwxr-xr-x 1 WPUDESK48473+computer 197121  0 Aug  7 09:23 ./
+drwxr-xr-x 1 WPUDESK48473+computer 197121  0 Aug  7 09:23 ../
+drwxr-xr-x 1 WPUDESK48473+computer 197121  0 Aug  7 09:24 .git/
+-rw-r--r-- 1 WPUDESK48473+computer 197121 24 Aug  7 09:23 fileone.txt
+-rw-r--r-- 1 WPUDESK48473+computer 197121 22 Aug  7 09:20 filetwo.txt
+-rw-r--r-- 1 WPUDESK48473+computer 197121 18 Aug  7 09:17 touch
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fileone.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git add filetwo.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git commit -m "Initial commit"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fileone.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fileone.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git log
+commit 68155e30f7c92c88017121a741cfb776dfd5f367 (HEAD -> master)
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:21:38 2023 +0530
+
+    Second commit
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ vi filethree.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git add .
+warning: in the working copy of 'fileone.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'filethree.txt', LF will be replaced by CRLF the next time Git touches it
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git commit -m "Second commmit"
+[master c9e8b7f] Second commmit
+ 2 files changed, 6 insertions(+)
+ create mode 100644 fileone.txt
+ create mode 100644 filethree.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git log
+commit c9e8b7fb9b1f0b63ecc5b1b0a0c213f852a0bc6f (HEAD -> master)
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:28:40 2023 +0530
+
+    Second commmit
+
+commit 68155e30f7c92c88017121a741cfb776dfd5f367
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:21:38 2023 +0530
+
+    Second commit
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ vi filefour.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git add .
+warning: in the working copy of 'filefour.txt', LF will be replaced by CRLF the next time Git touches it
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git commit -m "Third commit"
+[master 88683b2] Third commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 filefour.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git log
+commit 88683b2883663dbb178d8ab1e60fa2f6596aa511 (HEAD -> master)
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:29:51 2023 +0530
+
+    Third commit
+
+commit c9e8b7fb9b1f0b63ecc5b1b0a0c213f852a0bc6f
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:28:40 2023 +0530
+
+    Second commmit
+
+commit 68155e30f7c92c88017121a741cfb776dfd5f367
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:21:38 2023 +0530
+
+    Second commit
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git checkout -b "dev"
+Switched to a new branch 'dev'
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (dev)
+$ echo "this is a fsd class
+> echo "this is an fsd class" >> thirdfile.txt
+> cat thirdfile.txt
+> cls
+> cd
+> ^C
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (dev)
+$ echo "Fourth text" >> Filethree.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (dev)
+$ cat filethree.txt
+
+this is file three
+
+Fourth text
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (dev)
+$ git commit -m "Fourth commit"
+On branch dev
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   filethree.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (dev)
+$ git log
+commit 88683b2883663dbb178d8ab1e60fa2f6596aa511 (HEAD -> dev, master)
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:29:51 2023 +0530
+
+    Third commit
+
+commit c9e8b7fb9b1f0b63ecc5b1b0a0c213f852a0bc6f
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:28:40 2023 +0530
+
+    Second commmit
+
+commit 68155e30f7c92c88017121a741cfb776dfd5f367
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:21:38 2023 +0530
+
+    Second commit
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (dev)
+$ git merge dev
+Already up to date.
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (dev)
+$ git log
+commit 88683b2883663dbb178d8ab1e60fa2f6596aa511 (HEAD -> dev, master)
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:29:51 2023 +0530
+
+    Third commit
+
+commit c9e8b7fb9b1f0b63ecc5b1b0a0c213f852a0bc6f
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:28:40 2023 +0530
+
+    Second commmit
+
+commit 68155e30f7c92c88017121a741cfb776dfd5f367
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:21:38 2023 +0530
+
+    Second commit
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (dev)
+$ git checkout master
+Switched to branch 'master'
+M       filethree.txt
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ git log
+commit 88683b2883663dbb178d8ab1e60fa2f6596aa511 (HEAD -> master, dev)
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:29:51 2023 +0530
+
+    Third commit
+
+commit c9e8b7fb9b1f0b63ecc5b1b0a0c213f852a0bc6f
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:28:40 2023 +0530
+
+    Second commmit
+
+commit 68155e30f7c92c88017121a741cfb776dfd5f367
+Author: Nishad1363 <nishadwanjari1363@gmail.com>
+Date:   Mon Aug 7 09:21:38 2023 +0530
+
+    Second commit
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$ ^C
+
+WPUDESK48473+computer@WPUDESK48473 MINGW64 ~/nishtha (master)
+$
